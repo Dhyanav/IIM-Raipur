@@ -152,12 +152,6 @@ PYTHONPATH="." python3 src/visualization.py
   (MF = Rm − Rf)
 - **Momentum factor**: Cross-sectional WML — winner minus loser passive funds
 
-> **Note on factors**: The provided `factor_data.csv` covers only
-> Oct–Dec 1993 (no overlap with the 2013–2026 NAV data). All four
-> factors are therefore **synthetic**. SMB and HML are zero (constant)
-> in this large-cap universe — they are automatically excluded from
-> the OLS design matrix.
-
 ### Carhart (1997) Four-Factor Model
 
 ```
